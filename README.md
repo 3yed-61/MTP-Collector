@@ -13,15 +13,3 @@ You can check for sources in [here](https://raw.githubusercontent.com/3yed-61/MT
 ## Contribution
 If you have Channel and you want to add it to this project or you know Channels that can be used in this project you can ask for addition in Issues.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-function hiddifyHeader ($subscriptionName) {
-    return "#profile-title: base64:" . base64_encode($subscriptionName) . "
-#profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-#profile-web-page-url: https://github.com/3yed-61/TelegramV2rayCollector
-
-";
-}
