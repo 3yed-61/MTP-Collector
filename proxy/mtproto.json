@@ -28,6 +28,18 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
+            "server": "hourgasht.com.perspolisfs.com.dr-shohrehasani.com.taninsal-on.com.abifanshop.ir.zirbana.services.turcamobilya.com.motelpape-li.com.razavishams-kala.ir.tos-k-al.ir.iocv.ir.dndsms.ir.tadbirtsa.com.goldc-yrus.ir.notenot.ir.anahidstudio.com.kalabama.website",
+            "port": "443",
+            "secret": "3dpBFlW2hP6Hq_WOwiNeKBY=",
+            "name": "@ProxyMTProto|\ud83c\uddf8\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=hourgasht.com.perspolisfs.com.dr-shohrehasani.com.taninsal-on.com.abifanshop.ir.zirbana.services.turcamobilya.com.motelpape-li.com.razavishams-kala.ir.tos-k-al.ir.iocv.ir.dndsms.ir.tadbirtsa.com.goldc-yrus.ir.notenot.ir.anahidstudio.com.kalabama.website&port=443&secret=3dpBFlW2hP6Hq_WOwiNeKBY=&@ProxyMTProto|\ud83c\uddf8\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
             "server": "cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.google.com.again_to_fight.everyone.i_am.the_internet.kaboybaz.motorcycles.",
             "port": "6550",
             "secret": "eeRigzNJvXrFGRMCIMJdEAPQ",
@@ -46,6 +58,18 @@
             "name": "@Myporoxy|\ud83c\udde9\ud83c\uddea"
         },
         "link": "https:\/\/t.me\/proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.google.com.again_to_fight.everyone.i_am.the_internet.hercool.click.&port=1919&secret=eeRigzNJvXrFGRMCIMJdEAPQ&@Myporoxy|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com2.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.com.google.com.again_to_fight.everyone.i_am.the_internet.donyayemusic19.ir.",
+            "port": "8485",
+            "secret": "FgMBAgABAAH8AwOG4kw63Q==",
+            "name": "@TelMTProto|\ud83c\uddee\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com2.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.com.google.com.again_to_fight.everyone.i_am.the_internet.donyayemusic19.ir.&port=8485&secret=FgMBAgABAAH8AwOG4kw63Q==&@TelMTProto|\ud83c\uddee\ud83c\uddea"
     },
     {
         "scheme": "https",
