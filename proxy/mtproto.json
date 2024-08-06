@@ -4,12 +4,36 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "37.27.8.188",
-            "port": "443",
-            "secret": "3QAAAAAAAAAAAAAAAAAAAAA=",
-            "name": "@GlypeX|\ud83c\uddeb\ud83c\uddee"
+            "server": "45.88.230.55",
+            "port": "12",
+            "secret": "7lLIZ9x1mD-vS7N_kdUWTwkt",
+            "name": "@TelMTProto|\ud83c\uddec\ud83c\udde7"
         },
-        "link": "https:\/\/t.me\/proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@GlypeX|\ud83c\uddeb\ud83c\uddee"
+        "link": "https:\/\/t.me\/proxy?server=45.88.230.55&port=12&secret=7lLIZ9x1mD-vS7N_kdUWTwkt&@TelMTProto|\ud83c\uddec\ud83c\udde7"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "apisms.ir.nicekado.com.cantonfair.ir.all-mobile.ir.nettaz.ir.atieh-j-obs.ir.nibcompany.ir.ezfix.ir.absalkala.com.brandes-homa.ir.iranlms.ir.shamsetous.ir.mehranranji.ir.hiwaelectronic.com.ruzbazaar.ir.dr-masoudghaffari.ir.hamedsalehi.ir.arashcontin.shop",
+            "port": "443",
+            "secret": "3dpBFlW2hP6Hq_WOwiNeKBY=",
+            "name": "@MTP_roto|\ud83c\uddfa\ud83c\uddf8"
+        },
+        "link": "https:\/\/t.me\/proxy?server=apisms.ir.nicekado.com.cantonfair.ir.all-mobile.ir.nettaz.ir.atieh-j-obs.ir.nibcompany.ir.ezfix.ir.absalkala.com.brandes-homa.ir.iranlms.ir.shamsetous.ir.mehranranji.ir.hiwaelectronic.com.ruzbazaar.ir.dr-masoudghaffari.ir.hamedsalehi.ir.arashcontin.shop&port=443&secret=3dpBFlW2hP6Hq_WOwiNeKBY=&@MTP_roto|\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "195.62.32.119",
+            "port": "85",
+            "secret": "7lLIZ9x1mD-vS7N_kdUWTwkt",
+            "name": "@PinkProxy|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=195.62.32.119&port=85&secret=7lLIZ9x1mD-vS7N_kdUWTwkt&@PinkProxy|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
