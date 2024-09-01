@@ -4,6 +4,18 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
+            "server": "128.140.13.248",
+            "port": "443",
+            "secret": "3QAAAAAAAAAAAAAAAAAAAAA=",
+            "name": "@GlypeX|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@GlypeX|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
             "server": "www.baratoehaji.co.uk.",
             "port": "4045",
             "secret": "FgMBAgABAAH8AwOG4kw63Q==",
@@ -28,24 +40,12 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "paylalogistics.ir.soniaco.ir.sar-v-wood.ir.axa-neh.com.sarvdecor.com.wimsky.ir.esfahk.ir.tehrantamir.com.irtravels.com.mohanamin.ir.widasston-es.ir.shahed-asco.com.abgiran.c-om.mahashop.ir.cgwshipping.com.egnn.ir.iranulap.ir.playstationsorenabandar.shop",
-            "port": "443",
-            "secret": "3dpBFlW2hP6Hq_WOwiNeKBY=",
-            "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=paylalogistics.ir.soniaco.ir.sar-v-wood.ir.axa-neh.com.sarvdecor.com.wimsky.ir.esfahk.ir.tehrantamir.com.irtravels.com.mohanamin.ir.widasston-es.ir.shahed-asco.com.abgiran.c-om.mahashop.ir.cgwshipping.com.egnn.ir.iranulap.ir.playstationsorenabandar.shop&port=443&secret=3dpBFlW2hP6Hq_WOwiNeKBY=&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "adslcell.org.irancell.irancell_yo.want_to.clash_with.this.microsoft.com.there_is_no.place_nano.localhost.bing.com.count_with_me.cyou.com.now_sudo.rm_rf.ddns.net.we_are_here.again_to_fight.with_everyone.i_am.the_internet.spirancellirancell.remodeter.info",
             "port": "8085",
             "secret": "FgMBAgABAAH8AwOG4kw63Q",
-            "name": "@ProxyMTProto|\ud83c\uddee\ud83c\uddea"
+            "name": "@ProxyMTProto|\ud83c\uddf8\ud83c\uddea"
         },
-        "link": "https:\/\/t.me\/proxy?server=adslcell.org.irancell.irancell_yo.want_to.clash_with.this.microsoft.com.there_is_no.place_nano.localhost.bing.com.count_with_me.cyou.com.now_sudo.rm_rf.ddns.net.we_are_here.again_to_fight.with_everyone.i_am.the_internet.spirancellirancell.remodeter.info&port=8085&secret=FgMBAgABAAH8AwOG4kw63Q&@ProxyMTProto|\ud83c\uddee\ud83c\uddea"
+        "link": "https:\/\/t.me\/proxy?server=adslcell.org.irancell.irancell_yo.want_to.clash_with.this.microsoft.com.there_is_no.place_nano.localhost.bing.com.count_with_me.cyou.com.now_sudo.rm_rf.ddns.net.we_are_here.again_to_fight.with_everyone.i_am.the_internet.spirancellirancell.remodeter.info&port=8085&secret=FgMBAgABAAH8AwOG4kw63Q&@ProxyMTProto|\ud83c\uddf8\ud83c\uddea"
     },
     {
         "scheme": "https",
@@ -268,11 +268,11 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "146.190.133.151",
-            "port": "443",
-            "secret": "3RI0VngSNFZ4EjRWeBI0Vng=",
-            "name": "@ProxyForOpeta|\ud83c\uddfa\ud83c\uddf8"
+            "server": "185.173.37.86",
+            "port": "44443",
+            "secret": "eeRighJJvXrFGRMCIMJdCQ",
+            "name": "@ProxyForOpeta|\ud83c\uddf7\ud83c\uddfa"
         },
-        "link": "https:\/\/t.me\/proxy?server=146.190.133.151&port=443&secret=3RI0VngSNFZ4EjRWeBI0Vng=&@ProxyForOpeta|\ud83c\uddfa\ud83c\uddf8"
+        "link": "https:\/\/t.me\/proxy?server=185.173.37.86&port=44443&secret=eeRighJJvXrFGRMCIMJdCQ&@ProxyForOpeta|\ud83c\uddf7\ud83c\uddfa"
     }
 ]
