@@ -16,18 +16,6 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "atsine.ir.netmodern.ir.goodfollower.ir.persian--power.com.bazargol.com.zirbana.cloud.advertisingphotography.ir.tisshop.ir.touristchoice.ir.etkfz.com.isotope.ir.barzintravel.com.sheetplaza.ir.demancegroup.com.drdoostidrugstore.ir.almacompanymobile.online",
-            "port": "443",
-            "secret": "eeda411655b684fe87abf58ec2235e28167765622e62616c652e6972",
-            "name": "@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
-        },
-        "link": "https:\/\/t.me\/proxy?server=atsine.ir.netmodern.ir.goodfollower.ir.persian--power.com.bazargol.com.zirbana.cloud.advertisingphotography.ir.tisshop.ir.touristchoice.ir.etkfz.com.isotope.ir.barzintravel.com.sheetplaza.ir.demancegroup.com.drdoostidrugstore.ir.almacompanymobile.online&port=443&secret=eeda411655b684fe87abf58ec2235e28167765622e62616c652e6972&@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "lumoscoin.com.dexscreener.com-antom-0x950e936f8d53e1662f0e2c3a0b813c6bdc0dd109.he2zra68n-esh5gh.info.",
             "port": "7443",
             "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v",
@@ -58,18 +46,6 @@
             "name": "@Myporoxy|\ud83c\uddf7\ud83c\uddf4"
         },
         "link": "https:\/\/t.me\/proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.anderanik-01.info&port=115&secret=7ggggggggggggggggggggghzYW5qZXNoLmdvbw&@Myporoxy|\ud83c\uddf7\ud83c\uddf4"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "tehran-bus-off0920.car-tehran.info.",
-            "port": "8085",
-            "secret": "7gAAAAAAAAAAAAAAAAAAAAB0cmFuc2xhdGUuZ29v",
-            "name": "@TelMTProto|\ud83c\udde9\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=tehran-bus-off0920.car-tehran.info.&port=8085&secret=7gAAAAAAAAAAAAAAAAAAAAB0cmFuc2xhdGUuZ29v&@TelMTProto|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
@@ -160,18 +136,6 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "140.233.187.91",
-            "port": "888",
-            "secret": "eeRighJJvXrFGRMCIMJdCQ",
-            "name": "@ProxyMTProto_tel|\ud83c\uddfa\ud83c\uddf8"
-        },
-        "link": "https:\/\/t.me\/proxy?server=140.233.187.91&port=888&secret=eeRighJJvXrFGRMCIMJdCQ&@ProxyMTProto_tel|\ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "185.115.161.161",
             "port": "4443",
             "secret": "eeRighJJvXrFGRMCIMJdCQ",
@@ -202,6 +166,30 @@
             "name": "@PinkProxy|\ud83c\udde9\ud83c\uddea"
         },
         "link": "https:\/\/t.me\/proxy?server=85.10.195.112&port=4045&secret=7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v&@PinkProxy|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "78.47.157.236",
+            "port": "899",
+            "secret": "eeRighJJvXrFGRMCIMJdCQ",
+            "name": "@V2rayng_Fast|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=78.47.157.236&port=899&secret=eeRighJJvXrFGRMCIMJdCQ&@V2rayng_Fast|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "176.65.128.113",
+            "port": "888",
+            "secret": "eeRighJJvXrFGRMCIMJdCQ",
+            "name": "@V2rayng_Fast|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=176.65.128.113&port=888&secret=eeRighJJvXrFGRMCIMJdCQ&@V2rayng_Fast|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
