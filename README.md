@@ -1,5 +1,5 @@
 # MTproto Collector
-[![Collector](https://github.com/3yed-61/MTProtoCollector/actions/workflows/MTprotoCollector.yml/badge.svg)](https://github.com/3yed-61/MTProtoCollector/actions/workflows/MTprotoCollector.yml) [![Web](https://github.com/3yed-61/MTProtoCollector/actions/workflows/MTProtoCollectorWebpage.yml/badge.svg)](https://github.com/3yed-61/MTProtoCollector/actions/workflows/MTProtoCollectorWebpage.yml)
+
 
 <b>This project is intended for educational purposes only. Any other use of it, including commercial, personal, or non-educational use, is not accepted!</b>
 
