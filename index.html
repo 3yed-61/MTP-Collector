@@ -279,29 +279,29 @@
       });
 
       // Dynamic data fetching for proxies
-      fetch(
-        "https://raw.githubusercontent.com/3yed-61/MTP-Collector/main/proxy/mtproto.json"
-      )
-        .then((response) => response.json())
-        .then((data) => {
-          const grid = document.getElementById("proxy-grid");
-          data.forEach((proxy, index) => {
-            const card = document.createElement("div");
-            card.className = "proxy-card";
-            const nameParts = proxy.query.name.split("|");
-            const channelUrl = nameParts[0].replace("@", "");
+      fetch("https://raw.githubusercontent.com/3yed-61/MTP-Collector/main/proxy/mtproto.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const grid = document.getElementById("proxy-grid");
+    data.forEach((proxy, index) => {
+      const card = document.createElement("div");
+      card.className = "proxy-card";
+      const nameParts = proxy.query.name.split("|");
+      const channelUrl = nameParts[0].replace("@", "");
 
-            card.innerHTML = `
-              <h3>Proxy #${index + 1}</h3>
-              <p><strong>Channel:</strong> <a href="https://t.me/${channelUrl}" class="link-preview">${nameParts[0]}</a></p>
-              <p><strong>Country:</strong> ${nameParts[1]}</p>
-              <a href="${proxy.link}" class="link-preview">Connect</a>
-            `;
 
-            grid.appendChild(card);
-          });
-        })
-        .catch((error) => console.error(error));
+      card.innerHTML = `
+        <h3>Proxy #${index + 1}</h3>
+        <p><strong>Channel:</strong> <a href="tg://resolve?domain=${channelUrl}" class="link-preview">${nameParts[0]}</a></p>
+        <p><strong>Country:</strong> ${nameParts[1]}</p>
+        <a href="tg://proxy?server=${proxy.query.server}&port=${proxy.query.port}&secret=${proxy.query.secret}" class="link-preview">Connect</a>
+      `;
+
+      grid.appendChild(card);
+    });
+  })
+  .catch((error) => console.error(error));
+
     </script>
   </body>
 </html>
