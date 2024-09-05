@@ -129,17 +129,23 @@
       }
 
       /* Proxy Card Styles */
-      .proxy-card {
-        background-color: var(--secondary-color);
-        border-radius: 10px;
-        box-shadow: var(--box-shadow);
-        padding: 1.5rem;
-        text-align: center;
+      .proxy-card a {
+        display: block;
+        padding: 0.5rem;
+        background-color: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: 1rem;
         transition: var(--transition);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
       }
 
-      .proxy-card:hover {
-        transform: translateY(-5px);
+      .proxy-card a:hover {
+        background-color: var(--accent-color);
+        text-decoration: underline;
       }
 
       .proxy-card h3 {
