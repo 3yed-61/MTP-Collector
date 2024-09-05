@@ -1,169 +1,301 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Free MTProto Proxies</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <style>
+      /* Dark Mode Colors */
       :root {
-        --primary-color: #2196F3;
-        --secondary-color: #E3F2FD;
-        --text-color: #333333;
-        --background-color: #FFFFFF;
-        --dark-mode-background-color: #333333;
-        --dark-mode-text-color: #FFFFFF;
-        --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+        --primary-color: #037885;
+        --secondary-color: #263238;
+        --accent-color: #e64a19;
+        --background-color: #121212;
+        --text-color: #e0e0e0;
+        --box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
       }
 
+      /* Light Mode Colors */
+      body.dark {
+        --primary-color: #037885;
+        --secondary-color: #ebebeb;
+        --accent-color: #ff5722;
+        --background-color: #f9fafb;
+        --text-color: #333;
+        --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        --transition: all 0.3s ease;
+      }
+
+      /* General Styles */
       body {
-        margin: 0;
-        overflow-x: auto;
+        font-family: 'Roboto', sans-serif;
         background-color: var(--background-color);
         color: var(--text-color);
-        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        transition: var(--transition);
       }
 
-      .top-toolbar {
+      /* Toolbar / Top Navigation */
+      nav {
+        background-color: var(--primary-color);
+        padding: 1rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: var(--primary-color);
-        padding: 8px;
         box-shadow: var(--box-shadow);
       }
 
-      .top-toolbar a {
-        color: var(--background-color);
-        text-decoration: none;
-        padding: 8px;
-      }
-
-      .footer-bar {
+      nav ul {
         display: flex;
-        justify-content: center;
-        background-color: var(--primary-color);
-        padding: 8px;
-        box-shadow: var(--box-shadow);
+        list-style: none;
+        padding: 0;
+        margin: 0;
       }
 
-      .footer-bar a {
-        color: var(--background-color);
+      nav ul li {
+        margin-right: 1.5rem;
+      }
+
+      nav ul li a {
+        color: white;
+        font-weight: bold;
         text-decoration: none;
-        padding: 8px;
+        font-size: 1.2rem;
       }
 
-      h1 {
+      nav ul li a:hover {
+        color: var(--accent-color);
+      }
+
+      ul.center {
+        justify-content: center;
+        flex-grow: 1;
+      }
+
+      ul.right {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+
+      /* Hero Section */
+      .hero {
         text-align: center;
-      }
-
-      table {
-        border-collapse: collapse;
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
+        padding: 4rem 1rem;
+        background-color: var(--secondary-color);
         box-shadow: var(--box-shadow);
       }
 
-      th,
-      td {
-        text-align: left;
-        padding: 8px;
-        border-bottom: 1px solid var(--primary-color);
+      .hero h1 {
+        font-size: 3rem;
+        color: var(--primary-color);
       }
 
-      th {
-        background-color: var(--primary-color);
-        color: var(--background-color);
-      }
-
-      tr:nth-child(even) {
-        background-color: var(--secondary-color);
-      }
-
-      .link-preview {
-        display: inline-block;
-        max-width: 300px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        box-shadow: var(--box-shadow);
-        border-radius: 10px;
-        padding: 5px;
-        background-color: var(--secondary-color);
+      .hero p {
+        font-size: 1.25rem;
+        margin: 1rem 0;
         color: var(--text-color);
-        transform: translateZ(0);
-        transition: transform 0.25s ease-out;
       }
 
-      .link-preview:hover {
-        transform: translate(5px, 5px);
+      .hero button {
+        padding: 0.75rem 1.5rem;
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: var(--transition);
       }
 
+      .hero button:hover {
+        background-color: var(--accent-color);
+        transform: translateY(-3px);
+      }
+
+      /* Grid Layout for Proxy Cards */
+      .proxy-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      /* Proxy Card Styles */
+      .proxy-card {
+        background-color: var(--secondary-color);
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+        padding: 1.5rem;
+        text-align: center;
+        transition: var(--transition);
+      }
+
+      .proxy-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .proxy-card h3 {
+        margin: 0.5rem 0;
+        color: var(--primary-color);
+        font-size: 1.5rem;
+      }
+
+      .proxy-card p {
+        font-size: 1rem;
+        color: var(--text-color);
+      }
+
+      .proxy-card a {
+        display: block;
+        padding: 0.5rem;
+        background-color: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: 1rem;
+        transition: var(--transition);
+      }
+
+      .proxy-card a:hover {
+        background-color: var(--accent-color);
+      }
+
+      /* Footer */
+      footer {
+        padding: 1rem;
+        text-align: center;
+        background-color: var(--primary-color);
+        color: white;
+      }
+
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        color: var(--accent-color);
+      }
+
+      /* Toggle Dark Mode */
+      .toggle-container {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+      }
+
+      .toggle-switch {
+        cursor: pointer;
+        background-color: var(--primary-color);
+        border-radius: 25px;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .toggle-switch i {
+        color: white;
+        margin: 0 5px;
+      }
+
+      /* Responsive Design */
       @media (max-width: 768px) {
-        table {
-          font-size: 12px;
-          padding: 0;
+        .hero h1 {
+          font-size: 2rem;
         }
 
-        th,
-        td {
-          padding: 5px;
+        .hero p {
+          font-size: 1rem;
         }
 
-	.link-preview {
-           max-width: 185px;
-           padding: 3px;
+        .hero button {
+          font-size: 0.9rem;
+          padding: 0.5rem 1rem;
         }
       }
     </style>
   </head>
   <body>
-    <div class="top-toolbar">
-      <div>
-        <a href="https://github.com/3yed-61/MTProtoCollector">Home</a>
-        <a href="https://3yed.online">site</a>
-      </div>
-      <div>
-        <a href="https://github.com/3yed-61/">GitHub</a>
+    <!-- Toggle Dark Mode -->
+    <div class="toggle-container">
+      <div class="toggle-switch" id="dark-mode-toggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
       </div>
     </div>
-    <h1>Free MTProto Proxies</h1>
-    <table id="proxy-table">
-      <tr>
-        <th>#</th>
-        <th>Channel</th>
-        <th>Country</th>
-        <th>Link</th>
-      </tr>
-    </table>
-    <div class="footer-bar">
-      <div>
-        <a href="https://3yed.online">3yed © 2023</a>
-      </div>
-    </div>
+
+    <!-- Navigation Bar (Top Toolbar) -->
+    <nav>
+      <ul class="right">
+        <i class="fas fa-shield-alt"></i> MTProto Proxies
+      </ul>
+      <ul class="center">
+        <li><a href="https://github.com/3yed-61/MTProtoCollector"><i class="fas fa-home"></i></a></li>
+        <li><a href="https://3yed.space"><i class="fa-brands fa-internet-explorer"></i></a></li>
+        <li><a href="https://github.com/3yed-61/" role="button"><i class="fab fa-github"></i></a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Free MTProto Proxies</h1>
+      <p>It is regularly updated for the most reliable connections. Safe and fast.</p>
+    </section>
+
+    <!-- Main Section -->
+    <main class="container">
+      <h2>Latest MTProto Proxies</h2>
+      <div id="proxy-grid" class="proxy-grid"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <small>
+        <a href="https://3yed.online">3yed © 2023</a> •
+        <a href="https://github.com/3yed-61">GitHub</a>
+      </small>
+    </footer>
+
+    <!-- JavaScript -->
     <script>
-      fetch('https://raw.githubusercontent.com/3yed-61/MTP-Collector/main/proxy/mtproto.json').then((response) => response.json()).then((data) => {
-        const table = document.getElementById('proxy-table');
-        data.forEach((proxy, index) => {
-          const row = table.insertRow();
-          const countCell = row.insertCell();
-          const nameCell = row.insertCell();
-          const countryCell = row.insertCell();
-          const linkCell = row.insertCell();
-          countCell.innerText = index + 1;
-          const nameParts = proxy.query.name.split('|');
-          const channelUrl = nameParts[0].replace('@', '');
-          nameCell.innerHTML = `
-				
-				
-				<a href="https://t.me/${channelUrl}" class="link-preview">${nameParts[0]}</a>`
-          countryCell.innerText = nameParts[1];
-          linkCell.innerHTML = `
-				
-				
-				<a href="${proxy.link}" class="link-preview">${proxy.link}</a>`;
-        });
-      }).catch((error) => console.error(error));
+      // Dark Mode Toggle
+      const toggle = document.getElementById('dark-mode-toggle');
+      toggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+      });
+
+      // Dynamic data fetching for proxies
+      fetch(
+        "https://raw.githubusercontent.com/3yed-61/MTP-Collector/main/proxy/mtproto.json"
+      )
+        .then((response) => response.json())
+        .then((data) => {
+          const grid = document.getElementById("proxy-grid");
+          data.forEach((proxy, index) => {
+            const card = document.createElement("div");
+            card.className = "proxy-card";
+            const nameParts = proxy.query.name.split("|");
+            const channelUrl = nameParts[0].replace("@", "");
+
+            card.innerHTML = `
+              <h3>Proxy #${index + 1}</h3>
+              <p><strong>Channel:</strong> <a href="https://t.me/${channelUrl}" class="link-preview">${nameParts[0]}</a></p>
+              <p><strong>Country:</strong> ${nameParts[1]}</p>
+              <a href="${proxy.link}" class="link-preview">Connect</a>
+            `;
+
+            grid.appendChild(card);
+          });
+        })
+        .catch((error) => console.error(error));
     </script>
   </body>
 </html>
