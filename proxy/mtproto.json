@@ -16,18 +16,6 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "wigoswap.io.dexscreener.com-fantom-0x950e936f8d53e1662f0e2c3a0b813c6bdc0dd109.he2zra88n-esh33gh.lat.",
-            "port": "7443",
-            "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v",
-            "name": "@TelMTProto|\ud83c\udde9\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=wigoswap.io.dexscreener.com-fantom-0x950e936f8d53e1662f0e2c3a0b813c6bdc0dd109.he2zra88n-esh33gh.lat.&port=7443&secret=7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v&@TelMTProto|\ud83c\udde9\ud83c\uddea"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "176.65.128.193",
             "port": "8443",
             "secret": "eeRighJJvXrFGRMCIMJdCQ",
