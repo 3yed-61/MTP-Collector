@@ -4,6 +4,18 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
+            "server": "49.13.145.80",
+            "port": "443",
+            "secret": "3QAAAAAAAAAAAAAAAAAAAAA=",
+            "name": "@GlypeX|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@GlypeX|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
             "server": "cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.transfer-email.info.",
             "port": "7443",
             "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v",
@@ -22,6 +34,18 @@
             "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
         },
         "link": "https:\/\/t.me\/proxy?server=mohsen.miladkivi.com&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "arnikacenter.ir.bazarekhodro.com.aminjob.ir.emadgasht.net.feizarch.c--om.mtclift.com.pad-a-co.ir.rosehotel.ir.t-tg24.com.khone-gishop.com.c-haptak.ir.masoudhabibi.com.jamtrd.com.takband.ir.beroozfile.ir.jokersports.ir.dojinco.ir.raofikalacompany.website",
+            "port": "443",
+            "secret": "3dpBFlW2hP6Hq_WOwiNeKBY=",
+            "name": "@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
+        },
+        "link": "https:\/\/t.me\/proxy?server=arnikacenter.ir.bazarekhodro.com.aminjob.ir.emadgasht.net.feizarch.c--om.mtclift.com.pad-a-co.ir.rosehotel.ir.t-tg24.com.khone-gishop.com.c-haptak.ir.masoudhabibi.com.jamtrd.com.takband.ir.beroozfile.ir.jokersports.ir.dojinco.ir.raofikalacompany.website&port=443&secret=3dpBFlW2hP6Hq_WOwiNeKBY=&@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
     },
     {
         "scheme": "https",
@@ -55,21 +79,9 @@
             "server": "tuscanca.welcometomypro.cfd",
             "port": "443",
             "secret": "1603010200010001fc030386e24c3add",
-            "name": "@TelMTProto|\ud83c\uddeb\ud83c\uddf7"
+            "name": "@TelMTProto|\ud83c\uddee\ud83c\uddf9"
         },
-        "link": "https:\/\/t.me\/proxy?server=tuscanca.welcometomypro.cfd&port=443&secret=1603010200010001fc030386e24c3add&@TelMTProto|\ud83c\uddeb\ud83c\uddf7"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "mizban.soratdarevaalie.shir.asleavaletemadnakon.agehamkhastibokon.netghavisorat.info",
-            "port": "443",
-            "secret": "1603010200010001fc030386e24c3add",
-            "name": "@TelMTProto|\ud83c\uddf8\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=mizban.soratdarevaalie.shir.asleavaletemadnakon.agehamkhastibokon.netghavisorat.info&port=443&secret=1603010200010001fc030386e24c3add&@TelMTProto|\ud83c\uddf8\ud83c\uddea"
+        "link": "https:\/\/t.me\/proxy?server=tuscanca.welcometomypro.cfd&port=443&secret=1603010200010001fc030386e24c3add&@TelMTProto|\ud83c\uddee\ud83c\uddf9"
     },
     {
         "scheme": "https",
@@ -163,6 +175,18 @@
             "name": "@ProxyMTProto_tel|\ud83c\uddec\ud83c\udde7"
         },
         "link": "https:\/\/t.me\/proxy?server=www.acc2fas.makeup.&port=888&secret=eeRigzNJvXrFGRMCIMJdEAtY2RueWVrdGFuZXQuY29tZmFyYWthdi5jb212YW4ubmFqdmEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@ProxyMTProto_tel|\ud83c\uddec\ud83c\udde7"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "95.169.173.234",
+            "port": "85",
+            "secret": "7gAA8A8Pd__1VV______9QB2LmNwLS0=",
+            "name": "@proxyy|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=95.169.173.234&port=85&secret=7gAA8A8Pd__1VV______9QB2LmNwLS0=&@proxyy|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
