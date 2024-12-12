@@ -4,6 +4,18 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
+            "server": "49.13.145.80",
+            "port": "443",
+            "secret": "3QAAAAAAAAAAAAAAAAAAAAA=",
+            "name": "@GlypeX|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@GlypeX|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
             "server": "176.65.135.16",
             "port": "4045",
             "secret": "7gAA8A8Pd__1VV______9QB2LmMtLS0=",
@@ -34,18 +46,6 @@
             "name": "@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
         },
         "link": "https:\/\/t.me\/proxy?server=mmparsvnd.com.muaa.ir.tisashop.ir.niknamazma.com.payzheh.co.am-run.ir.hiroosh.com.trimed.ir.100sabad.ir.foladiran.ir.technotel5.com.omdeehkala.ir.aydeniz.co.fkaeng.com.sabsaz.ir.motibonut.com.myck.ir.aghaemdad.com.tedakol724.com.wallexirtraining.website&port=443&secret=eeda411655b684fe87abf58ec2235e28167765622e62616c652e6972&@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "hgs24.ir.se24.ir.yas-star.com.starcontrolco.com.hamedanhaji.ir.goftegooacademy.com.undermode.ir.paparashop.ir.decobank.ir.jili-ng.co.mesbahmousavi.ir.erjaki.com.zirbana.clo-ud.msf-co.ir.one-ten.ir.mediamanager.ir.mahakgostar.com.wallexirtraining.website",
-            "port": "443",
-            "secret": "3dpBFlW2hP6Hq_WOwiNeKBY=",
-            "name": "@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
-        },
-        "link": "https:\/\/t.me\/proxy?server=hgs24.ir.se24.ir.yas-star.com.starcontrolco.com.hamedanhaji.ir.goftegooacademy.com.undermode.ir.paparashop.ir.decobank.ir.jili-ng.co.mesbahmousavi.ir.erjaki.com.zirbana.clo-ud.msf-co.ir.one-ten.ir.mediamanager.ir.mahakgostar.com.wallexirtraining.website&port=443&secret=3dpBFlW2hP6Hq_WOwiNeKBY=&@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
     },
     {
         "scheme": "https",
@@ -148,12 +148,12 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "49.13.64.175",
-            "port": "1320",
-            "secret": "1320PuNyHw_LQKT_Y7XNJw==",
+            "server": "49.13.144.85",
+            "port": "34034",
+            "secret": "8JEkJukBYNPSy7OH6v7urg==",
             "name": "@ProxyDaemi|\ud83c\udde9\ud83c\uddea"
         },
-        "link": "https:\/\/t.me\/proxy?server=49.13.64.175&port=1320&secret=1320PuNyHw_LQKT_Y7XNJw==&@ProxyDaemi|\ud83c\udde9\ud83c\uddea"
+        "link": "https:\/\/t.me\/proxy?server=49.13.144.85&port=34034&secret=8JEkJukBYNPSy7OH6v7urg==&@ProxyDaemi|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
