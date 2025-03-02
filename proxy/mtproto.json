@@ -184,6 +184,18 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
+            "server": "ssssssss.mmmmm.5745798.yekdose123.space",
+            "port": "8080",
+            "secret": "ee1b3829daae01fd07c0e23c917c664004697669662e6972",
+            "name": "@alephproxy|\ud83c\uddec\ud83c\udde7"
+        },
+        "link": "https:\/\/t.me\/proxy?server=ssssssss.mmmmm.5745798.yekdose123.space&port=8080&secret=ee1b3829daae01fd07c0e23c917c664004697669662e6972&@alephproxy|\ud83c\uddec\ud83c\udde7"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
             "server": "45.15.159.66",
             "port": "1",
             "secret": "ee100d65580c769f110f712c234c3141687777772e636c6f7564666c6172652e636f6d",
