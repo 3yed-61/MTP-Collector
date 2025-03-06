@@ -28,18 +28,6 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "138.201.85.42",
-            "port": "9110",
-            "secret": "DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=138.201.85.42&port=9110&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "138.201.138.104",
             "port": "9110",
             "secret": "DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
