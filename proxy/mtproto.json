@@ -52,6 +52,30 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
+            "server": "5.255.123.23",
+            "port": "443",
+            "secret": "1603010200010001fc030386e24c3add",
+            "name": "@TelMTProto|\ud83c\uddf3\ud83c\uddf1"
+        },
+        "link": "https:\/\/t.me\/proxy?server=5.255.123.23&port=443&secret=1603010200010001fc030386e24c3add&@TelMTProto|\ud83c\uddf3\ud83c\uddf1"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "204.76.203.193",
+            "port": "443",
+            "secret": "1603010200010001fc030386e24c3add",
+            "name": "@TelMTProto|\ud83c\uddf3\ud83c\uddf1"
+        },
+        "link": "https:\/\/t.me\/proxy?server=204.76.203.193&port=443&secret=1603010200010001fc030386e24c3add&@TelMTProto|\ud83c\uddf3\ud83c\uddf1"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
             "server": "89.110.105.222",
             "port": "443",
             "secret": "eeNEgYdJvXrFGRMCIMJdCQ==",
@@ -166,6 +190,18 @@
             "name": "@PinkProxy|\ud83c\udde9\ud83c\uddea"
         },
         "link": "https:\/\/t.me\/proxy?server=176.65.135.43&port=23&secret=eeNEgYdJvXrFGRMCIMJdCQtY2RueWVrdGFuZXQuY29tZmFyYWthdi5jb212YW4ubmFqdmEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@PinkProxy|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "por.sorat.va.qavi.hivashop.sbs",
+            "port": "443",
+            "secret": "eea862b5ce26291ec74acac505415674fc73332e616d617a6f6e6177732e636f6d",
+            "name": "@alephproxy|\ud83c\uddf2\ud83c\udde9"
+        },
+        "link": "https:\/\/t.me\/proxy?server=por.sorat.va.qavi.hivashop.sbs&port=443&secret=eea862b5ce26291ec74acac505415674fc73332e616d617a6f6e6177732e636f6d&@alephproxy|\ud83c\uddf2\ud83c\udde9"
     },
     {
         "scheme": "https",
