@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <link rel="stylesheet" href="404/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Background effects -->
+  <div class="noise"></div>
+  <div class="overlay"></div>
+  
+  <!-- Matrix rain background -->
+  <div class="matrix-rain" id="matrix-rain"></div>
+
+  <div class="container">
+    <div class="error-container">
+      <div class="glitch-wrapper">
+        <h1 class="glitch" data-text="404">404</h1>
+      </div>
+      <h2 class="error-message">Page Not Found</h2>
+      <p class="error-description">
+        The system cannot locate the requested Page. It may have been encrypted, deleted, or moved to a secure server.
+      </p>
+      <div class="actions">
+        <a href="/" class="btn primary-btn" aria-label="Return to Main System">
+          <i class="fas fa-terminal"></i> Return to Main System
+        </a>
+        <button class="btn secondary-btn" id="back-btn" aria-label="Go Back">
+          <i class="fas fa-undo"></i> Previous Directory
+        </button>
+      </div>
+      <!-- Terminal will be added here by JS -->
+      <!-- Game container will be added here by JS -->
+    </div>
+    <div class="illustration">
+      <!-- SVG Hacker -->
+      <div class="hacker-svg-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Matrix Background Effect -->
+  <rect width="512" height="512" fill="#000" opacity="0.9"/>
+  <g id="matrix-code">
+    <text x="30" y="40" fill="#00ff00" opacity="0.4" font-family="monospace" font-size="12">01100101 01111000 01110000</text>
+    <text x="50" y="70" fill="#00ff00" opacity="0.5" font-family="monospace" font-size="12">10110010 01101111 01110010</text>
+    <text x="20" y="100" fill="#00ff00" opacity="0.3" font-family="monospace" font-size="12">01101000 01100001 01100011</text>
+    <text x="60" y="130" fill="#00ff00" opacity="0.6" font-family="monospace" font-size="12">01101011 01100101 01110010</text>
+    <text x="40" y="160" fill="#00ff00" opacity="0.4" font-family="monospace" font-size="12">01100011 01101111 01100100</text>
+    <text x="350" y="80" fill="#00ff00" opacity="0.5" font-family="monospace" font-size="12">01101101 01100001 01110100</text>
+    <text x="380" y="110" fill="#00ff00" opacity="0.3" font-family="monospace" font-size="12">01110010 01101001 01111000</text>
+    <text x="360" y="140" fill="#00ff00" opacity="0.6" font-family="monospace" font-size="12">01100101 01110010 01110010</text>
+    <text x="390" y="170" fill="#00ff00" opacity="0.4" font-family="monospace" font-size="12">01101111 01110010 00110100</text>
+    <text x="370" y="200" fill="#00ff00" opacity="0.5" font-family="monospace" font-size="12">00110000 00110100 01100101</text>
+	<text x="125" y="205" fill="#00ff00" opacity="0.6" font-family="monospace" font-size="22">3λΞĐ</text>
+  </g>
+  
+  <!-- Hacker Figure -->
+  <g id="hacker" transform="translate(130, 100)">
+    <!-- Hoodie -->
+    <path d="M125,140 C125,80 175,80 175,140 L175,220 L125,220 Z" fill="#222"/>
+    <path d="M125,140 C125,100 85,100 85,140 L85,220 L125,220 Z" fill="#222"/>
+    
+    <!-- Hood Shadow -->
+    <path d="M85,140 C85,100 125,80 175,100 C175,80 125,60 85,140 Z" fill="#111"/>
+    
+    <!-- Face (Dark) -->
+    <ellipse cx="130" cy="130" rx="45" ry="50" fill="#111"/>
+    
+    <!-- Mask/Face Covering -->
+    <path d="M100,130 C100,110 160,110 160,130 C160,150 140,160 130,160 C120,160 100,150 100,130 Z" fill="#333"/>
+    
+    <!-- Glowing Eyes -->
+    <ellipse cx="115" cy="125" rx="5" ry="3" fill="#00ff00"/>
+    <ellipse cx="145" cy="125" rx="5" ry="3" fill="#00ff00"/>
+    
+    <!-- Laptop -->
+    <g id="laptop" transform="translate(0, 40)">
+      <!-- Laptop Base -->
+      <rect x="90" y="140" width="80" height="10" rx="2" fill="#333"/>
+      
+      <!-- Laptop Screen -->
+      <rect x="95" y="100" width="70" height="40" rx="2" fill="#111"/>
+      <rect x="100" y="105" width="60" height="30" fill="#000"/>
+      
+      <!-- Screen Content (Matrix Code) -->
+      <text x="105" y="115" fill="#00ff00" font-family="monospace" font-size="5">01001000 01000001</text>
+      <text x="105" y="122" fill="#00ff00" font-family="monospace" font-size="5">01000011 01001011</text>
+      <text x="105" y="129" fill="#00ff00" font-family="monospace" font-size="5">01000101 01010010</text>
+      
+      <!-- Hands on Keyboard -->
+      <path d="M85,145 C75,130 85,130 90,145 Z" fill="#111"/>
+      <path d="M175,145 C185,130 175,130 170,145 Z" fill="#111"/>
+    </g>
+  </g>
+  
+  <!-- Digital Circuit Lines -->
+  <g id="circuit-lines" stroke="#00ff00" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M50,50 L100,50 L100,100 L150,100" />
+    <path d="M50,150 L80,150 L80,200 L120,200" />
+    <path d="M350,50 L300,50 L300,100 L250,100" />
+    <path d="M350,150 L320,150 L320,200 L280,200" />
+    <path d="M200,250 L200,300 L250,300 L250,350" />
+    <path d="M150,250 L150,320 L100,320 L100,350" />
+    
+    <!-- Circuit Nodes -->
+    <circle cx="100" cy="50" r="3" fill="#00ff00"/>
+    <circle cx="80" cy="150" r="3" fill="#00ff00"/>
+    <circle cx="300" cy="50" r="3" fill="#00ff00"/>
+    <circle cx="320" cy="150" r="3" fill="#00ff00"/>
+    <circle cx="200" cy="300" r="3" fill="#00ff00"/>
+    <circle cx="150" cy="320" r="3" fill="#00ff00"/>
+  </g>
+  
+  <!-- Glowing Effect -->
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+  
+  <!-- Apply Glow to Eyes -->
+  <g filter="url(#glow)">
+    <ellipse cx="245" cy="225" rx="5" ry="3" fill="#00ff00" opacity="0.7"/>
+    <ellipse cx="275" cy="225" rx="5" ry="3" fill="#00ff00" opacity="0.7"/>
+  </g>
+</svg>
+</div>
+  <div class="binary-particles"></div>
+</div>
+   <div class="circuit line3"></div>
+    <div class="circuit node1"></div>
+    <div class="circuit node2"></div>
+    <div class="circuit node3"></div>
+  </div>
+  <div class="binary-particles"></div>
+  <div class="matrix-code-block"></div>
+  <div class="stars"></div>
+</div>
+  <script src="404/script.js"></script>
+</body>
+</html>
