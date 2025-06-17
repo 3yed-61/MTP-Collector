@@ -55,9 +55,9 @@
             "server": "Startup-active.custome-tobano.avadox-zhoan.info",
             "port": "65",
             "secret": "7gAA8A8Pd1VV____9QBuLmltZWRpYS5zdGVhbXBvd2VyZWQuY29t",
-            "name": "@Myporoxy|\ud83c\uddf7\ud83c\uddf4"
+            "name": "@Myporoxy|\ud83c\udde9\ud83c\uddea"
         },
-        "link": "https:\/\/t.me\/proxy?server=Startup-active.custome-tobano.avadox-zhoan.info&port=65&secret=7gAA8A8Pd1VV____9QBuLmltZWRpYS5zdGVhbXBvd2VyZWQuY29t&@Myporoxy|\ud83c\uddf7\ud83c\uddf4"
+        "link": "https:\/\/t.me\/proxy?server=Startup-active.custome-tobano.avadox-zhoan.info&port=65&secret=7gAA8A8Pd1VV____9QBuLmltZWRpYS5zdGVhbXBvd2VyZWQuY29t&@Myporoxy|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
@@ -112,23 +112,23 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "193.3.190.50",
-            "port": "85",
-            "secret": "7gAA8A8Pd1VV____9QBuLmljaGF0Z3B0LmNvbQ==",
-            "name": "@ProxyMTProto_tel|\ud83c\uddeb\ud83c\uddf7"
-        },
-        "link": "https:\/\/t.me\/proxy?server=193.3.190.50&port=85&secret=7gAA8A8Pd1VV____9QBuLmljaGF0Z3B0LmNvbQ==&@ProxyMTProto_tel|\ud83c\uddeb\ud83c\uddf7"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "193.3.190.51",
             "port": "85",
             "secret": "7gAA8A8Pd1VV____9QBuLmljaGF0Z3B0LmNvbQ==",
             "name": "@ProxyMTProto_tel|\ud83c\uddeb\ud83c\uddf7"
         },
         "link": "https:\/\/t.me\/proxy?server=193.3.190.51&port=85&secret=7gAA8A8Pd1VV____9QBuLmljaGF0Z3B0LmNvbQ==&@ProxyMTProto_tel|\ud83c\uddeb\ud83c\uddf7"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "193.3.190.50",
+            "port": "85",
+            "secret": "7gAA8A8Pd1VV____9QBuLmljaGF0Z3B0LmNvbQ==",
+            "name": "@ProxyMTProto_tel|\ud83c\uddeb\ud83c\uddf7"
+        },
+        "link": "https:\/\/t.me\/proxy?server=193.3.190.50&port=85&secret=7gAA8A8Pd1VV____9QBuLmljaGF0Z3B0LmNvbQ==&@ProxyMTProto_tel|\ud83c\uddeb\ud83c\uddf7"
     }
 ]
