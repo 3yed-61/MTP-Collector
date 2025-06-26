@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "128.140.11.183",
+            "port": "443",
+            "secret": "7ux0IoISTwTTGFUTQerXZFdzMy5hbWF6b25hd3MuY29t",
+            "name": "@proxy_kafee|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=128.140.11.183&port=443&secret=7ux0IoISTwTTGFUTQerXZFdzMy5hbWF6b25hd3MuY29t&@proxy_kafee|\ud83c\udde9\ud83c\uddea"
+    }
+]
