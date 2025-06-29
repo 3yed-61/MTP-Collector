@@ -4,18 +4,6 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "23.88.51.230",
-            "port": "443",
-            "secret": "3QAAAAAAAAAAAAAAAAAAAAA=",
-            "name": "@GlypeX|\ud83c\udde9\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=23.88.51.230&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@GlypeX|\ud83c\udde9\ud83c\uddea"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "Mortal-Vovok.nuremborg-hamborg.dodos-codam.mehrvilla.info",
             "port": "443",
             "secret": "7gAA8A8Pd1VV____9QBuLmltZWRpYS5zdGVhbXBvd2VyZWQuY29t",
@@ -40,12 +28,12 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "www.vsmusic.ir",
-            "port": "888",
-            "secret": "7gwwYoISy716xRkTAgVSXRVpYS5zdGVhbXBvd2VyZWQuY29t",
-            "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+            "server": "45.135.194.28",
+            "port": "37",
+            "secret": "DDBighLLvXrFGRMCBVJdFQ==",
+            "name": "@PlusMTProto|\ud83c\uddf3\ud83c\uddf1"
         },
-        "link": "https:\/\/t.me\/proxy?server=www.vsmusic.ir&port=888&secret=7gwwYoISy716xRkTAgVSXRVpYS5zdGVhbXBvd2VyZWQuY29t&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+        "link": "https:\/\/t.me\/proxy?server=45.135.194.28&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@PlusMTProto|\ud83c\uddf3\ud83c\uddf1"
     },
     {
         "scheme": "https",
@@ -88,23 +76,11 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "iran.zibayi.shop.",
-            "port": "888",
-            "secret": "ee0c30628212cbbd7ac519130205525d1569612e737465616d706f77657265642e636f6d",
-            "name": "@ProxyMTProto_tel|\ud83c\udde9\ud83c\uddea"
+            "server": "91.99.161.12",
+            "port": "70",
+            "secret": "7gAA8A8Pd1VV____9QBuLmktLXcuZ28tLS0=",
+            "name": "@proxy_kafee|\ud83c\udde9\ud83c\uddea"
         },
-        "link": "https:\/\/t.me\/proxy?server=iran.zibayi.shop.&port=888&secret=ee0c30628212cbbd7ac519130205525d1569612e737465616d706f77657265642e636f6d&@ProxyMTProto_tel|\ud83c\udde9\ud83c\uddea"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "BodoBodo.khoshghovar.online.",
-            "port": "888",
-            "secret": "ee0c30628212cbbd7ac519130205525d1569612e737465616d706f77657265642e636f6d",
-            "name": "@ProxyMTProto_tel|\ud83c\uddeb\ud83c\uddee"
-        },
-        "link": "https:\/\/t.me\/proxy?server=BodoBodo.khoshghovar.online.&port=888&secret=ee0c30628212cbbd7ac519130205525d1569612e737465616d706f77657265642e636f6d&@ProxyMTProto_tel|\ud83c\uddeb\ud83c\uddee"
+        "link": "https:\/\/t.me\/proxy?server=91.99.161.12&port=70&secret=7gAA8A8Pd1VV____9QBuLmktLXcuZ28tLS0=&@proxy_kafee|\ud83c\udde9\ud83c\uddea"
     }
 ]
