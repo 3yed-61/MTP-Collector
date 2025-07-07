@@ -18,7 +18,8 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://3yed-61.github.io/MTP-Collector/
+
     runs-on: ubuntu-latest
 
     steps:
@@ -28,11 +29,11 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
+      # ✅ استفاده از اکشن رسمی برای GitHub Pages
       - name: Upload GitHub Pages artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
-          name: github-pages
-          path: './'
+          path: './'  # یا ./dist در صورت داشتن خروجی build
 
       - name: Deploy to GitHub Pages
         id: deployment
