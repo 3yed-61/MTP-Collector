@@ -28,7 +28,7 @@ function parse_proxy($proxy, $name)
     $query_string = str_replace("amp;", "", $parts["query"]);
     parse_str($query_string, $query_params);
     if (
-        !filtered_or_not("https://" . $query_params["server"])
+        ping($query_params["server"], $query_params["port"]) !== "unavailable"
     ) {
         foreach ($query_params as $key => $value) {
             if (stripos($key, "@") !== false) {
@@ -53,8 +53,7 @@ function parse_proxy($proxy, $name)
 
 function proxy_array_maker($source)
 {
-    $exception = ["alephproxy"];
-    $key_limit = in_array($source, $exception) ? count(getProxies($source)) - 9 : count(getProxies($source)) - 2;
+    $key_limit = count(getProxies($source)) - 3;
     $output = [];
     foreach (getProxies($source) as $key => $proxy) {
         if ($key >= $key_limit) {
