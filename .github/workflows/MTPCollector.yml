@@ -24,5 +24,5 @@ jobs:
           git config --global user.name "3yed-61"
           git config credential.helper store
           git add -A
-          git commit -m "🚀 Proxies Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "🚀 Proxies Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
