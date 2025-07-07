@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: "Deploy static content to GitHub Pages"
 
 on:
   push:
@@ -29,11 +29,10 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
-      # ✅ استفاده از اکشن رسمی برای GitHub Pages
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: './'  # یا ./dist در صورت داشتن خروجی build
+          path: './'
 
       - name: Deploy to GitHub Pages
         id: deployment
