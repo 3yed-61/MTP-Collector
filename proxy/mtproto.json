@@ -4,12 +4,24 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "128.140.13.248",
+            "server": "49.13.145.61",
             "port": "443",
             "secret": "3QAAAAAAAAAAAAAAAAAAAAA=",
             "name": "@GlypeX|\ud83c\udde9\ud83c\uddea"
         },
-        "link": "https:\/\/t.me\/proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@GlypeX|\ud83c\udde9\ud83c\uddea"
+        "link": "https:\/\/t.me\/proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@GlypeX|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "49.13.145.84",
+            "port": "443",
+            "secret": "3QAAAAAAAAAAAAAAAAAAAAA=",
+            "name": "@GlypeX|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@GlypeX|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
@@ -64,24 +76,24 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "95.217.25.41",
-            "port": "35432",
-            "secret": "ee104462821249bd7ac519130220c25d096d61782e7275",
-            "name": "@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+            "server": "95.111.234.50",
+            "port": "443",
+            "secret": "ee349a239357a92e695d3fa1af04bf3e2c636c6f7564666c6172652e636f6d",
+            "name": "@ProxyMTProto|\ud83c\uddeb\ud83c\uddf7"
         },
-        "link": "https:\/\/t.me\/proxy?server=95.217.25.41&port=35432&secret=ee104462821249bd7ac519130220c25d096d61782e7275&@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+        "link": "https:\/\/t.me\/proxy?server=95.111.234.50&port=443&secret=ee349a239357a92e695d3fa1af04bf3e2c636c6f7564666c6172652e636f6d&@ProxyMTProto|\ud83c\uddeb\ud83c\uddf7"
     },
     {
         "scheme": "https",
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "www.merco-karco.website",
+            "server": "62.171.185.192",
             "port": "443",
-            "secret": "ee1603010200010001fc030386e24c3add626973636F7474692E79656B74616E65742E636F6D",
-            "name": "@Myporoxy|\ud83c\uddeb\ud83c\uddee"
+            "secret": "ee212563d6d8816a43be5143606cdadb35636c6f7564666c6172652e636f6d",
+            "name": "@ProxyMTProto|\ud83c\uddeb\ud83c\uddf7"
         },
-        "link": "https:\/\/t.me\/proxy?server=www.merco-karco.website&port=443&secret=ee1603010200010001fc030386e24c3add626973636F7474692E79656B74616E65742E636F6D&@Myporoxy|\ud83c\uddeb\ud83c\uddee"
+        "link": "https:\/\/t.me\/proxy?server=62.171.185.192&port=443&secret=ee212563d6d8816a43be5143606cdadb35636c6f7564666c6172652e636f6d&@ProxyMTProto|\ud83c\uddeb\ud83c\uddf7"
     },
     {
         "scheme": "https",
