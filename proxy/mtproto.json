@@ -28,36 +28,36 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "186.246.16.55",
-            "port": "443",
-            "secret": "ee7d21ac88a75bdb5887ec4918a20386927777772e6d6963726f736f66742e636f6d",
-            "name": "@ProxyMTProto|\ud83c\uddf1\ud83c\uddfb"
+            "server": "alpina.agency",
+            "port": "8443",
+            "secret": "eea02597a68d4821f58d17e6405c389da16164732e78352e7275",
+            "name": "@ProxyMTProto|\ud83c\udde8\ud83c\uddff"
         },
-        "link": "https:\/\/t.me\/proxy?server=186.246.16.55&port=443&secret=ee7d21ac88a75bdb5887ec4918a20386927777772e6d6963726f736f66742e636f6d&@ProxyMTProto|\ud83c\uddf1\ud83c\uddfb"
+        "link": "https:\/\/t.me\/proxy?server=alpina.agency&port=8443&secret=eea02597a68d4821f58d17e6405c389da16164732e78352e7275&@ProxyMTProto|\ud83c\udde8\ud83c\uddff"
     },
     {
         "scheme": "https",
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "144.31.221.15",
+            "server": "night.nolags.pw",
             "port": "443",
-            "secret": "bfb063cc6d861de10f6a39c795fc66e4",
-            "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+            "secret": "dddb42e911bcebf275392e32feebef9459",
+            "name": "@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
         },
-        "link": "https:\/\/t.me\/proxy?server=144.31.221.15&port=443&secret=bfb063cc6d861de10f6a39c795fc66e4&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+        "link": "https:\/\/t.me\/proxy?server=night.nolags.pw&port=443&secret=dddb42e911bcebf275392e32feebef9459&@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
     },
     {
         "scheme": "https",
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "65.108.50.120",
+            "server": "rkn.proxytg.space",
             "port": "443",
-            "secret": "dd104462821249bd7ac519130220c25d09",
-            "name": "@V2rayng_Fast|\ud83c\uddeb\ud83c\uddee"
+            "secret": "eedab8c006cdc477f71b1825b3082b1017726b6e2e70726f787974672e7370616365",
+            "name": "@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
         },
-        "link": "https:\/\/t.me\/proxy?server=65.108.50.120&port=443&secret=dd104462821249bd7ac519130220c25d09&@V2rayng_Fast|\ud83c\uddeb\ud83c\uddee"
+        "link": "https:\/\/t.me\/proxy?server=rkn.proxytg.space&port=443&secret=eedab8c006cdc477f71b1825b3082b1017726b6e2e70726f787974672e7370616365&@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
     },
     {
         "scheme": "https",
