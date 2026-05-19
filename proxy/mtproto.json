@@ -28,24 +28,36 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "186.246.16.221",
+            "server": "proxy.chunkycorp.shop",
             "port": "443",
-            "secret": "eec11798ab008831b474066c9e1ebf5c99617669746f2e7275",
-            "name": "@ProxyMTProto|\ud83c\uddf1\ud83c\uddfb"
+            "secret": "ee3a3365be03d6bc13518d65e70a3146c2706574726f766963682e7275",
+            "name": "@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
         },
-        "link": "https:\/\/t.me\/proxy?server=186.246.16.221&port=443&secret=eec11798ab008831b474066c9e1ebf5c99617669746f2e7275&@ProxyMTProto|\ud83c\uddf1\ud83c\uddfb"
+        "link": "https:\/\/t.me\/proxy?server=proxy.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2706574726f766963682e7275&@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
     },
     {
         "scheme": "https",
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "186.246.18.244",
+            "server": "rkn.prxtoday.space",
             "port": "443",
-            "secret": "ee2086691bf3db011a90a21bbd34cc29647777772e6d6963726f736f66742e636f6d",
-            "name": "@ProxyMTProto|\ud83c\uddf1\ud83c\uddfb"
+            "secret": "eee905e5553bb4da46367bc56513a43d36726b6e2e707278746f6461792e7370616365",
+            "name": "@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
         },
-        "link": "https:\/\/t.me\/proxy?server=186.246.18.244&port=443&secret=ee2086691bf3db011a90a21bbd34cc29647777772e6d6963726f736f66742e636f6d&@ProxyMTProto|\ud83c\uddf1\ud83c\uddfb"
+        "link": "https:\/\/t.me\/proxy?server=rkn.prxtoday.space&port=443&secret=eee905e5553bb4da46367bc56513a43d36726b6e2e707278746f6461792e7370616365&@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "ak.yourline.online",
+            "port": "443",
+            "secret": "eed74b20f8b196edebcfdc6de8c8985d60616b2e796f75726c696e652e6f6e6c696e65",
+            "name": "@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
+        },
+        "link": "https:\/\/t.me\/proxy?server=ak.yourline.online&port=443&secret=eed74b20f8b196edebcfdc6de8c8985d60616b2e796f75726c696e652e6f6e6c696e65&@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
     },
     {
         "scheme": "https",
