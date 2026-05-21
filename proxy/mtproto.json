@@ -28,12 +28,36 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "hl.routefastnet.online",
+            "server": "s3.neo-trading.org",
             "port": "443",
-            "secret": "7qml9WdAadmCCIta0n3KRYRobC5yb3V0ZWZhc3RuZXQub25saW5l",
+            "secret": "eec3fefd89a25d37ca3af1a602c7bfd8de79612e7275",
             "name": "@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
         },
-        "link": "https:\/\/t.me\/proxy?server=hl.routefastnet.online&port=443&secret=7qml9WdAadmCCIta0n3KRYRobC5yb3V0ZWZhc3RuZXQub25saW5l&@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
+        "link": "https:\/\/t.me\/proxy?server=s3.neo-trading.org&port=443&secret=eec3fefd89a25d37ca3af1a602c7bfd8de79612e7275&@ProxyMTProto|\ud83c\uddf3\ud83c\uddf1"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "another.life.mambabot.net",
+            "port": "4515",
+            "secret": "eec485b564c0178c338d8bf4f3f17539c4613234382e652e616b616d61692e6e6574",
+            "name": "@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+        },
+        "link": "https:\/\/t.me\/proxy?server=another.life.mambabot.net&port=4515&secret=eec485b564c0178c338d8bf4f3f17539c4613234382e652e616b616d61692e6e6574&@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "hop2.proxytg.space",
+            "port": "443",
+            "secret": "eec5428740a808240ccf21f21547fc843f6d61782e7275",
+            "name": "@ProxyMTProto|\ud83c\uddf7\ud83c\uddfa"
+        },
+        "link": "https:\/\/t.me\/proxy?server=hop2.proxytg.space&port=443&secret=eec5428740a808240ccf21f21547fc843f6d61782e7275&@ProxyMTProto|\ud83c\uddf7\ud83c\uddfa"
     },
     {
         "scheme": "https",
