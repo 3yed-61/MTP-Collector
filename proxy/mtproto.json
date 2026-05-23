@@ -28,36 +28,36 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "FREE.edgeCDN-static.com",
+            "server": "plg-proxy.duckdns.org",
+            "port": "9443",
+            "secret": "7nI_RL0Z_1CkMYeMay0LRqBwbGctcHJveHkuZHVja2Rucy5vcmc",
+            "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=plg-proxy.duckdns.org&port=9443&secret=7nI_RL0Z_1CkMYeMay0LRqBwbGctcHJveHkuZHVja2Rucy5vcmc&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "speed.chunkycorp.shop",
             "port": "443",
-            "secret": "eea1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d66564676563646e2d7374617469632e636f6d",
-            "name": "@ProxyMTProto|\ud83c\uddf7\ud83c\uddfa"
+            "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275",
+            "name": "@ProxyMTProto|\ud83c\uddf1\ud83c\uddfb"
         },
-        "link": "https:\/\/t.me\/proxy?server=FREE.edgeCDN-static.com&port=443&secret=eea1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d66564676563646e2d7374617469632e636f6d&@ProxyMTProto|\ud83c\uddf7\ud83c\uddfa"
+        "link": "https:\/\/t.me\/proxy?server=speed.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275&@ProxyMTProto|\ud83c\uddf1\ud83c\uddfb"
     },
     {
         "scheme": "https",
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "alpinavpn.hatecens.cc",
-            "port": "7443",
-            "secret": "eef8dc254a4c2af8afcab54c8a5f9bb4fb616c70696e6176706e2e6861746563656e732e6363",
-            "name": "@ProxyMTProto|\ud83c\uddf7\ud83c\uddfa"
+            "server": "195.133.20.10",
+            "port": "443",
+            "secret": "eec11798ab008831b474066c9e1ebf5c86617669746f2e7275",
+            "name": "@ProxyMTProto|\ud83c\udde8\ud83c\uddff"
         },
-        "link": "https:\/\/t.me\/proxy?server=alpinavpn.hatecens.cc&port=7443&secret=eef8dc254a4c2af8afcab54c8a5f9bb4fb616c70696e6176706e2e6861746563656e732e6363&@ProxyMTProto|\ud83c\uddf7\ud83c\uddfa"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "hop.proxytg.space",
-            "port": "8443",
-            "secret": "eeabb8cea3a48990152aacc55985a913116262632e636f6d",
-            "name": "@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
-        },
-        "link": "https:\/\/t.me\/proxy?server=hop.proxytg.space&port=8443&secret=eeabb8cea3a48990152aacc55985a913116262632e636f6d&@ProxyMTProto|\ud83c\uddfa\ud83c\uddf8"
+        "link": "https:\/\/t.me\/proxy?server=195.133.20.10&port=443&secret=eec11798ab008831b474066c9e1ebf5c86617669746f2e7275&@ProxyMTProto|\ud83c\udde8\ud83c\uddff"
     },
     {
         "scheme": "https",
