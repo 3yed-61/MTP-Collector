@@ -123,23 +123,36 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 12px;
         background: var(--bg-color);
-        padding: 10px 18px;
-        border-radius: 30px;
+        border: none;
+        outline: none;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
         box-shadow: var(--neu-out-sm);
-        color: var(--text-color);
         transition: var(--transition);
+        /* Added for 3D effect */
+        perspective: 1000px;
       }
 
       .toggle-switch:active {
         box-shadow: var(--neu-in);
       }
 
-      body:not(.dark) .fa-sun { color: #f39c12; }
-      body.dark .fa-moon { color: #f1c40f; }
-      body:not(.dark) .fa-moon { color: var(--text-muted); }
-      body.dark .fa-sun { color: var(--text-muted); }
+      #theme-icon {
+        font-size: 1.2rem;
+        transition: transform 0.5s ease-in-out, color 0.3s ease;
+        /* Necessary for 3D rotation */
+        transform-style: preserve-3d;
+      }
+      
+      /* Animation class to be added by JS */
+      #theme-icon.flipping {
+        transform: rotateY(180deg);
+      }
+
+      body:not(.dark) #theme-icon { color: #f39c12; }
+      body.dark #theme-icon { color: #f1c40f; }
 
       /* --- Hero Section --- */
       .hero {
@@ -304,13 +317,12 @@
       }
     </style>
   </head>
-  <body class="dark">
-    <!-- Toggle Dark Mode -->
+  <body>
+    <!-- Toggle Dark/Light Mode -->
     <div class="toggle-container">
-      <div class="toggle-switch" id="dark-mode-toggle">
-        <i class="fas fa-sun"></i>
-        <i class="fas fa-moon"></i>
-      </div>
+      <button class="toggle-switch" id="dark-mode-toggle" aria-label="Toggle dark/light theme">
+        <i id="theme-icon" class="fas fa-moon"></i>
+      </button>
     </div>
 
     <!-- Navigation Bar -->
@@ -344,39 +356,73 @@
 
     <!-- JavaScript -->
     <script>
-      // Dark Mode Toggle
-      const toggle = document.getElementById('dark-mode-toggle');
-      toggle.addEventListener('click', () => {
-        document.body.classList.toggle('dark');
+      // Elements for Dark Mode handling
+      const toggleBtn = document.getElementById('dark-mode-toggle');
+      const themeIcon = document.getElementById('theme-icon');
+      let isFlipping = false; // Prevents re-triggering animation while it's running
+
+      function applyTheme(theme, isInitialLoad = false) {
+        // Change icon class
+        if (theme === 'dark') {
+          document.body.classList.add('dark');
+          themeIcon.classList.remove('fa-moon');
+          themeIcon.classList.add('fa-sun');
+        } else {
+          document.body.classList.remove('dark');
+          themeIcon.classList.remove('fa-sun');
+          themeIcon.classList.add('fa-moon');
+        }
+        
+        // If it's not the initial page load, keep the flipped state to complete the animation
+        if (!isInitialLoad) {
+          themeIcon.classList.remove('flipping');
+        }
+      }
+
+      // Check user choice on load
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      applyTheme(savedTheme, true); // true indicates it's the initial load
+
+      // Toggle action with animation
+      toggleBtn.addEventListener('click', () => {
+        if (isFlipping) return; // Exit if animation is already in progress
+        isFlipping = true;
+
+        const currentTheme = document.body.classList.contains('dark') ? 'light' : 'dark';
+        
+        // 1. Start the first half of the flip
+        themeIcon.classList.add('flipping');
+        
+        // 2. Wait for the icon to be hidden (halfway through the animation)
+        setTimeout(() => {
+          // 3. Change theme and icon class
+          localStorage.setItem('theme', currentTheme);
+          applyTheme(currentTheme, false); // false means it's a user action
+          
+          // 4. The 'flipping' class is removed in applyTheme, which reverses the animation
+          isFlipping = false;
+        }, 250); // Half of the 0.5s transition duration
       });
 
       // Helper function to extract ISO country code from emoji flags and render as SVG
       function renderCountryWithFlag(countryStr) {
         if (!countryStr) return 'Unknown';
-        
         let countryCode = "";
         const codePointA = 0x1F1E6; // Regional Indicator Symbol Letter A
         const codePoints = [...countryStr].map(char => char.codePointAt(0));
-        
-        // Find if there are flag emoji regional indicators and extract the 2-letter ISO code
         for (let cp of codePoints) {
           if (cp >= codePointA && cp <= 0x1F1FF) {
             countryCode += String.fromCharCode(cp - codePointA + 65);
           }
         }
-        
-        // Remove the emoji characters from the text to prevent double rendering
         const cleanText = [...countryStr].filter(char => {
           const cp = char.codePointAt(0);
           return !(cp >= codePointA && cp <= 0x1F1FF);
         }).join("").trim();
-        
-        // If an ISO code is found, render the flag using FlagCDN
         if (countryCode.length === 2) {
           const code = countryCode.toLowerCase();
           return `<img src="https://flagcdn.com/w40/${code}.png" class="flag-icon" alt="${code}"> ${cleanText}`;
         }
-        
         return countryStr;
       }
 
@@ -390,10 +436,7 @@
             card.className = "proxy-card";
             const nameParts = proxy.query.name.split("|");
             const channelUrl = nameParts[0].replace("@", "");
-            
-            // Format country string to display flag image correctly
             const formattedCountry = renderCountryWithFlag(nameParts[1]);
-
             card.innerHTML = `
               <div>
                 <h3>ƤꝚ𝓞Ⲭƴ 🔸${index + 1}</h3>
@@ -402,7 +445,6 @@
               </div>
               <a href="tg://proxy?server=${proxy.query.server}&port=${proxy.query.port}&secret=${proxy.query.secret}" class="link-preview">Connect</a>
             `;
-
             grid.appendChild(card);
           });
         })
