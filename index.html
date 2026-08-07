@@ -37,11 +37,9 @@
         --primary-color: #00bcd4;
         --accent-color: #ff014f;
         
-        /* استفاده از رنگ‌های سالید (Solid) به جای rgba برای جلوگیری از هاله‌ی نورانی */
-        --shadow-dark: #121415;  /* سایه مشکی و مات */
-        --shadow-light: #30343b; /* لبه‌ی روشن مات، بدون درخشش */
+        --shadow-dark: #121415;
+        --shadow-light: #30343b;
 
-        /* سایه‌ها کمی جمع‌وجورتر شده‌اند تا ظاهر پلاستیکی/فیزیکی بهتری داشته باشند */
         --neu-out: 7px 7px 14px var(--shadow-dark), -7px -7px 14px var(--shadow-light);
         --neu-out-sm: 4px 4px 8px var(--shadow-dark), -4px -4px 8px var(--shadow-light);
         --neu-in: inset 5px 5px 10px var(--shadow-dark), inset -5px -5px 10px var(--shadow-light);
@@ -249,6 +247,18 @@
         transform: translateY(2px);
       }
 
+      /* Styles for generated flag images */
+      .flag-icon {
+        display: inline-block;
+        width: 20px;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 6px;
+        margin-top: -2px;
+        border-radius: 3px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+      }
+
       /* --- Footer --- */
       footer {
         padding: 2rem;
@@ -340,6 +350,36 @@
         document.body.classList.toggle('dark');
       });
 
+      // Helper function to extract ISO country code from emoji flags and render as SVG
+      function renderCountryWithFlag(countryStr) {
+        if (!countryStr) return 'Unknown';
+        
+        let countryCode = "";
+        const codePointA = 0x1F1E6; // Regional Indicator Symbol Letter A
+        const codePoints = [...countryStr].map(char => char.codePointAt(0));
+        
+        // Find if there are flag emoji regional indicators and extract the 2-letter ISO code
+        for (let cp of codePoints) {
+          if (cp >= codePointA && cp <= 0x1F1FF) {
+            countryCode += String.fromCharCode(cp - codePointA + 65);
+          }
+        }
+        
+        // Remove the emoji characters from the text to prevent double rendering
+        const cleanText = [...countryStr].filter(char => {
+          const cp = char.codePointAt(0);
+          return !(cp >= codePointA && cp <= 0x1F1FF);
+        }).join("").trim();
+        
+        // If an ISO code is found, render the flag using FlagCDN
+        if (countryCode.length === 2) {
+          const code = countryCode.toLowerCase();
+          return `<img src="https://flagcdn.com/w40/${code}.png" class="flag-icon" alt="${code}"> ${cleanText}`;
+        }
+        
+        return countryStr;
+      }
+
       // Dynamic data fetching for proxies
       fetch("https://raw.githubusercontent.com/3yed-61/MTP-Collector/refs/heads/main/proxy/mtproto.json")
         .then((response) => response.json())
@@ -350,12 +390,15 @@
             card.className = "proxy-card";
             const nameParts = proxy.query.name.split("|");
             const channelUrl = nameParts[0].replace("@", "");
+            
+            // Format country string to display flag image correctly
+            const formattedCountry = renderCountryWithFlag(nameParts[1]);
 
             card.innerHTML = `
               <div>
                 <h3>Proxy #${index + 1}</h3>
                 <p><strong>Channel:</strong> <a href="tg://resolve?domain=${channelUrl}" class="link-preview">${nameParts[0]}</a></p>
-                <p><strong>Country:</strong> ${nameParts[1] || 'Unknown'}</p>
+                <p><strong>Country:</strong> ${formattedCountry}</p>
               </div>
               <a href="tg://proxy?server=${proxy.query.server}&port=${proxy.query.port}&secret=${proxy.query.secret}" class="link-preview">Connect</a>
             `;
