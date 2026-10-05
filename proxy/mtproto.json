@@ -4,72 +4,12 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "bvv608.ir.meli-n13.info",
-            "port": "8443",
-            "secret": "104462821249bd7ac519130220c25d09",
-            "name": "@Lion_MTProto|\ud83c\uddeb\ud83c\uddee"
-        },
-        "link": "https:\/\/t.me\/proxy?server=bvv608.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09&@Lion_MTProto|\ud83c\uddeb\ud83c\uddee"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "cdn.mangoseason4.co.uk",
-            "port": "2096",
-            "secret": "eeNEgYdJvXrFGRMCIMJdCQ",
-            "name": "@Lion_MTProto|\ud83c\uddee\ud83c\uddf7"
-        },
-        "link": "https:\/\/t.me\/proxy?server=cdn.mangoseason4.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ&@Lion_MTProto|\ud83c\uddee\ud83c\uddf7"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "49.12.71.146",
-            "port": "8443",
-            "secret": "dd104462821249bd7ac519130220c25d09",
-            "name": "@Lion_MTProto|\ud83c\udde9\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=49.12.71.146&port=8443&secret=dd104462821249bd7ac519130220c25d09&@Lion_MTProto|\ud83c\udde9\ud83c\uddea"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "exiscos.co.uk.",
             "port": "8443",
             "secret": "eeNEgYdJvXrFGRMCIMJdCQ",
-            "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+            "name": "@Lion_MTProto|\ud83c\udde9\ud83c\uddea"
         },
-        "link": "https:\/\/t.me\/proxy?server=exiscos.co.uk.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "jhndoes.co.uk.",
-            "port": "8443",
-            "secret": "eeNEgYdJvXrFGRMCIMJdCQ",
-            "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=jhndoes.co.uk.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "dns.vdl.lat",
-            "port": "443",
-            "secret": "eece59031f1109f05387b7155534c7ac87646e732e76646c2e6c6174",
-            "name": "@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
-        },
-        "link": "https:\/\/t.me\/proxy?server=dns.vdl.lat&port=443&secret=eece59031f1109f05387b7155534c7ac87646e732e76646c2e6c6174&@ProxyMTProto|\ud83c\udde9\ud83c\uddea"
+        "link": "https:\/\/t.me\/proxy?server=exiscos.co.uk.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ&@Lion_MTProto|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
@@ -79,33 +19,105 @@
             "server": "recordzan.herfeibash.info.",
             "port": "7799",
             "secret": "dd10400103324995b07c030386e886e7f1",
-            "name": "@Myporoxy|\ud83c\uddee\ud83c\uddf7"
+            "name": "@Lion_MTProto|\ud83c\uddee\ud83c\uddf7"
         },
-        "link": "https:\/\/t.me\/proxy?server=recordzan.herfeibash.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1&@Myporoxy|\ud83c\uddee\ud83c\uddf7"
+        "link": "https:\/\/t.me\/proxy?server=recordzan.herfeibash.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1&@Lion_MTProto|\ud83c\uddee\ud83c\uddf7"
     },
     {
         "scheme": "https",
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "shekargah.kolbar-zahmatkesh.info.",
+            "server": "65.21.227.200",
+            "port": "443",
+            "secret": "3XnnAQIAAQAH8AMDhuJMOt0",
+            "name": "@Lion_MTProto|\ud83c\uddeb\ud83c\uddee"
+        },
+        "link": "https:\/\/t.me\/proxy?server=65.21.227.200&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0&@Lion_MTProto|\ud83c\uddeb\ud83c\uddee"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "severjadid.co.uk",
+            "port": "4455",
+            "secret": "dd104462821249bd7ac519130220c25d09",
+            "name": "@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+        },
+        "link": "https:\/\/t.me\/proxy?server=severjadid.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09&@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "New.nchnch.co.uk",
+            "port": "4455",
+            "secret": "dd104462821249bd7ac519130220c25d09",
+            "name": "@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+        },
+        "link": "https:\/\/t.me\/proxy?server=New.nchnch.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09&@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "Lashboy.muzanesghy.co.uk",
+            "port": "4455",
+            "secret": "dd104462821249bd7ac519130220c25d09",
+            "name": "@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+        },
+        "link": "https:\/\/t.me\/proxy?server=Lashboy.muzanesghy.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09&@ProxyMTProto|\ud83c\uddeb\ud83c\uddee"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "bookmook.hichibehichi-co.info.",
+            "port": "2882",
+            "secret": "dd10400103324995b07c030386e886e7f1",
+            "name": "@Myporoxy|\ud83c\uddee\ud83c\uddf7"
+        },
+        "link": "https:\/\/t.me\/proxy?server=bookmook.hichibehichi-co.info.&port=2882&secret=dd10400103324995b07c030386e886e7f1&@Myporoxy|\ud83c\uddee\ud83c\uddf7"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "cocorichmond.pareporeh.info.",
             "port": "7799",
             "secret": "dd10400103324995b07c030386e886e7f1",
             "name": "@Myporoxy|\ud83c\uddeb\ud83c\uddee"
         },
-        "link": "https:\/\/t.me\/proxy?server=shekargah.kolbar-zahmatkesh.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1&@Myporoxy|\ud83c\uddeb\ud83c\uddee"
+        "link": "https:\/\/t.me\/proxy?server=cocorichmond.pareporeh.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1&@Myporoxy|\ud83c\uddeb\ud83c\uddee"
     },
     {
         "scheme": "https",
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "vahshianeh.ghodratitarin.info.",
-            "port": "7799",
-            "secret": "dd10400103324995b07c030386e886e7f1",
-            "name": "@Myporoxy|\ud83c\uddee\ud83c\uddf7"
+            "server": "vasalshim.mamadgoli.co.uk",
+            "port": "4455",
+            "secret": "dd104462821249bd7ac519130220c25d09",
+            "name": "@TelMTProto|\ud83c\uddeb\ud83c\uddee"
         },
-        "link": "https:\/\/t.me\/proxy?server=vahshianeh.ghodratitarin.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1&@Myporoxy|\ud83c\uddee\ud83c\uddf7"
+        "link": "https:\/\/t.me\/proxy?server=vasalshim.mamadgoli.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09&@TelMTProto|\ud83c\uddeb\ud83c\uddee"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "dizgrakh.mamadali.co.uk",
+            "port": "4455",
+            "secret": "dd104462821249bd7ac519130220c25d09",
+            "name": "@TelMTProto|\ud83c\uddeb\ud83c\uddee"
+        },
+        "link": "https:\/\/t.me\/proxy?server=dizgrakh.mamadali.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09&@TelMTProto|\ud83c\uddeb\ud83c\uddee"
     },
     {
         "scheme": "https",
@@ -118,18 +130,6 @@
             "name": "@TelMTProto|\ud83c\uddeb\ud83c\uddee"
         },
         "link": "https:\/\/t.me\/proxy?server=tazenafas.dingi3.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09&@TelMTProto|\ud83c\uddeb\ud83c\uddee"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
-            "server": "65.21.227.200",
-            "port": "443",
-            "secret": "3XnnAQIAAQAH8AMDhuJMOt0",
-            "name": "@TelMTProto|\ud83c\uddeb\ud83c\uddee"
-        },
-        "link": "https:\/\/t.me\/proxy?server=65.21.227.200&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0&@TelMTProto|\ud83c\uddeb\ud83c\uddee"
     },
     {
         "scheme": "https",
@@ -151,9 +151,9 @@
             "server": "ir.grasic.info",
             "port": "8443",
             "secret": "EERighJJvXrFGRMCIMjdCQ",
-            "name": "@MTP_roto|\ud83c\uddeb\ud83c\uddee"
+            "name": "@MTP_roto|\ud83c\udde9\ud83c\uddea"
         },
-        "link": "https:\/\/t.me\/proxy?server=ir.grasic.info&port=8443&secret=EERighJJvXrFGRMCIMjdCQ&@MTP_roto|\ud83c\uddeb\ud83c\uddee"
+        "link": "https:\/\/t.me\/proxy?server=ir.grasic.info&port=8443&secret=EERighJJvXrFGRMCIMjdCQ&@MTP_roto|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
@@ -220,24 +220,12 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "server3.Server-space52.info",
-            "port": "443",
-            "secret": "AAAAAAAAAAAAAAAAAAAAAA==",
-            "name": "@ProxyDaemi|\ud83c\uddec\ud83c\udde7"
-        },
-        "link": "https:\/\/t.me\/proxy?server=server3.Server-space52.info&port=443&secret=AAAAAAAAAAAAAAAAAAAAAA==&@ProxyDaemi|\ud83c\uddec\ud83c\udde7"
-    },
-    {
-        "scheme": "https",
-        "host": "t.me",
-        "path": "\/proxy",
-        "query": {
             "server": "opt.Server-space52.info",
             "port": "443",
             "secret": "AAAAAAAAAAAAAAAAAAAAAA==",
-            "name": "@ProxyDaemi|\ud83c\uddec\ud83c\udde7"
+            "name": "@ProxyDaemi|\ud83c\uddfa\ud83c\uddf8"
         },
-        "link": "https:\/\/t.me\/proxy?server=opt.Server-space52.info&port=443&secret=AAAAAAAAAAAAAAAAAAAAAA==&@ProxyDaemi|\ud83c\uddec\ud83c\udde7"
+        "link": "https:\/\/t.me\/proxy?server=opt.Server-space52.info&port=443&secret=AAAAAAAAAAAAAAAAAAAAAA==&@ProxyDaemi|\ud83c\uddfa\ud83c\uddf8"
     },
     {
         "scheme": "https",
@@ -247,9 +235,33 @@
             "server": "dpi.Server-space52.info",
             "port": "443",
             "secret": "AAAAAAAAAAAAAAAAAAAAAA==",
-            "name": "@ProxyDaemi|\ud83c\uddec\ud83c\udde7"
+            "name": "@ProxyDaemi|\ud83c\uddfa\ud83c\uddf8"
         },
-        "link": "https:\/\/t.me\/proxy?server=dpi.Server-space52.info&port=443&secret=AAAAAAAAAAAAAAAAAAAAAA==&@ProxyDaemi|\ud83c\uddec\ud83c\udde7"
+        "link": "https:\/\/t.me\/proxy?server=dpi.Server-space52.info&port=443&secret=AAAAAAAAAAAAAAAAAAAAAA==&@ProxyDaemi|\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "93.113.230.145",
+            "port": "443",
+            "secret": "FASTooGmYdaaVxJpA0SkKQ",
+            "name": "@ProxyDaemi|\ud83c\uddee\ud83c\uddf7"
+        },
+        "link": "https:\/\/t.me\/proxy?server=93.113.230.145&port=443&secret=FASTooGmYdaaVxJpA0SkKQ&@ProxyDaemi|\ud83c\uddee\ud83c\uddf7"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "91.98.97.225",
+            "port": "8443",
+            "secret": "eeNEgYdJvXrFGRMCIMJdCQ",
+            "name": "@ProxyMTProto_tel|\ud83c\udde9\ud83c\uddea"
+        },
+        "link": "https:\/\/t.me\/proxy?server=91.98.97.225&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ&@ProxyMTProto_tel|\ud83c\udde9\ud83c\uddea"
     },
     {
         "scheme": "https",
@@ -328,23 +340,59 @@
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "p22.us.clazumo.ir",
+            "server": "p28.us.clazumo.ir",
             "port": "8443",
-            "secret": "ee8d36f2b274c4fdcbdbde5f142d707c21617069322e6272616e63682e696f",
+            "secret": "ee02b10485ec3c65136df08e9be2ed949b617069322e6272616e63682e696f",
             "name": "@V2rayng_Fast|\ud83c\uddfa\ud83c\uddf8"
         },
-        "link": "https:\/\/t.me\/proxy?server=p22.us.clazumo.ir&port=8443&secret=ee8d36f2b274c4fdcbdbde5f142d707c21617069322e6272616e63682e696f&@V2rayng_Fast|\ud83c\uddfa\ud83c\uddf8"
+        "link": "https:\/\/t.me\/proxy?server=p28.us.clazumo.ir&port=8443&secret=ee02b10485ec3c65136df08e9be2ed949b617069322e6272616e63682e696f&@V2rayng_Fast|\ud83c\uddfa\ud83c\uddf8"
     },
     {
         "scheme": "https",
         "host": "t.me",
         "path": "\/proxy",
         "query": {
-            "server": "p47.nl.clazumo.ir",
+            "server": "p29.se.clazumo.ir",
             "port": "8443",
-            "secret": "ee6c11348059e5ed6fa5b2f682cb80db0a617069322e6272616e63682e696f",
-            "name": "@V2rayng_Fast|\ud83c\uddf3\ud83c\uddf1"
+            "secret": "eef8e42f1b6d0da36159f41be98860a735617069322e6272616e63682e696f",
+            "name": "@V2rayng_Fast|\ud83c\uddf8\ud83c\uddea"
         },
-        "link": "https:\/\/t.me\/proxy?server=p47.nl.clazumo.ir&port=8443&secret=ee6c11348059e5ed6fa5b2f682cb80db0a617069322e6272616e63682e696f&@V2rayng_Fast|\ud83c\uddf3\ud83c\uddf1"
+        "link": "https:\/\/t.me\/proxy?server=p29.se.clazumo.ir&port=8443&secret=eef8e42f1b6d0da36159f41be98860a735617069322e6272616e63682e696f&@V2rayng_Fast|\ud83c\uddf8\ud83c\uddea"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "eyiran35.suser.ir",
+            "port": "2020",
+            "secret": "AAAAAAAAAAAAAAAAAAAAAA==",
+            "name": "@proxy_kafee|\ud83c\uddee\ud83c\uddf7"
+        },
+        "link": "https:\/\/t.me\/proxy?server=eyiran35.suser.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA==&@proxy_kafee|\ud83c\uddee\ud83c\uddf7"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "eyiran1.suser.ir",
+            "port": "2020",
+            "secret": "AAAAAAAAAAAAAAAAAAAAAA==",
+            "name": "@proxy_kafee|\ud83c\uddee\ud83c\uddf7"
+        },
+        "link": "https:\/\/t.me\/proxy?server=eyiran1.suser.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA==&@proxy_kafee|\ud83c\uddee\ud83c\uddf7"
+    },
+    {
+        "scheme": "https",
+        "host": "t.me",
+        "path": "\/proxy",
+        "query": {
+            "server": "eyiran.suser.ir",
+            "port": "2020",
+            "secret": "AAAAAAAAAAAAAAAAAAAAAA==",
+            "name": "@proxy_kafee|\ud83c\uddee\ud83c\uddf7"
+        },
+        "link": "https:\/\/t.me\/proxy?server=eyiran.suser.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA==&@proxy_kafee|\ud83c\uddee\ud83c\uddf7"
     }
 ]
